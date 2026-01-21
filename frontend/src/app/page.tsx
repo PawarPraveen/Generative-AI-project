@@ -1,9 +1,9 @@
 'use client';
 
-import { GeneratorForm } from '@/components/GeneratorForm';
-import { PreviewPanel } from '@/components/PreviewPanel';
-import { ProjectHistory } from '@/components/ProjectHistory';
-import { HealthCheck } from '@/components/HealthCheck';
+import { GeneratorForm } from '../components/GeneratorForm';
+import { PreviewPanel } from '../components/PreviewPanel';
+import { ProjectHistory } from '../components/ProjectHistory';
+import { HealthCheck } from '../components/HealthCheck';
 
 export default function Home() {
   return (

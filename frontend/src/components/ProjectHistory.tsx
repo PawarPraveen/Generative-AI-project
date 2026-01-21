@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import { useGeneratorStore } from '../lib/store.ts';
-import { apiClient } from '../lib/api-client.ts';
+import { useGeneratorStore } from '../lib/store';
+import { apiClient } from '../lib/api-client';
 import { Trash2, Eye } from 'lucide-react';
 
 export function ProjectHistory() {

@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { GeneratedWebsite, Project } from './api-client.ts';
+import { GeneratedWebsite, Project } from './api-client';
 
 interface GeneratorStore {
   userPrompt: string;

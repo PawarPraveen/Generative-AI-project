@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import { useGeneratorStore } from '../lib/store.ts';
+import { useGeneratorStore } from '../lib/store';
 import JSZip from 'jszip';
 
 export function PreviewPanel() {

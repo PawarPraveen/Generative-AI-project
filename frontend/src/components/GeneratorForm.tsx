@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import { useGeneratorStore } from '../lib/store';
-import { apiClient } from '../lib/api-client';
+import { useGeneratorStore } from '../lib/store.ts';
+import { apiClient } from '../lib/api-client.ts';
 
 export function GeneratorForm() {
   const store = useGeneratorStore();
